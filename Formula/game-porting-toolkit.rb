@@ -28,8 +28,8 @@ class GamePortingToolkit < Formula
   version "1.1"
   desc "Apple Game Porting Toolkit"
   homepage "https://developer.apple.com/"
-  url "https://media.codeweavers.com/pub/crossover/source/crossover-sources-22.1.1.tar.gz", using: TarballDownloadStrategy
-  sha256 "cdfe282ce33788bd4f969c8bfb1d3e2de060eb6c296fa1c3cdf4e4690b8b1831"
+  url "https://media.codeweavers.com/pub/crossover/source/crossover-sources-24.0.5.tar.gz", using: TarballDownloadStrategy
+  sha256 "a6f4089c522ec30c4715927ed8898b0cbd2f5bc113b1fee30350bbf16581d473"
   patch :p0, :DATA
 
   depends_on arch: :x86_64
